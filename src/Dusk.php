@@ -187,7 +187,7 @@ class Dusk
      *
      * @return $this
      */
-    protected function addArgument(string $argument)
+    public function addArgument(string $argument)
     {
         if ($this->arguments->contains($argument)) {
             return;
